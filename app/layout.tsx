@@ -26,7 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <Lenis>
-        <body className={`${manrope.variable} font-sans antialiased`}>
+        <body
+          className={`${manrope.variable} font-sans antialiased bg-background`}
+        >
           <ThemeProvider
             attribute="class"
             defaultTheme="light"
